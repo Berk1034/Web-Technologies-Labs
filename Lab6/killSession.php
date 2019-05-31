@@ -1,4 +1,3 @@
 <?php
-	include '8_temp.php';
-	session_destroy();//Закрываем все открытые сессии
-?>
+	include 'lab6var8Session.php';
+	session_destroy();//Close all opened sessions
