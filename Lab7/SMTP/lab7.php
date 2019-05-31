@@ -67,7 +67,7 @@ if(!isset($_POST['mailsubject']) and !isset($_POST['mailtext'])){
           $mail->Port       = 587;// TCP port to connect to
 
           //Recipients
-          $mail->setFrom('testfromconstantin@gmail.com', 'Constantin\'s ROBOT-Mailer');
+          $mail->setFrom('MYSMTPUSERNAME', 'Constantin\'s ROBOT-Mailer');
           foreach ($rows as $users) {
             $mail->addAddress($users['UserMail']);
           }
